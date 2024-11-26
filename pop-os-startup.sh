@@ -21,6 +21,7 @@ sudo flatpak update -y
 echo -e "\e[95m1.2.2system wide uninstall --unused --delete-data\e[0m"
 sudo flatpak uninstall --unused --delete-data
 
+# repo: https://github.com/sreejithag/battery-charging-limiter-linux
 echo && echo -e "\e[96m2. limit.sh 80\e[0m" && echo
 sleep 2
 cd ~/Documents/battery-charging-limiter-linux/
@@ -30,7 +31,7 @@ echo && echo -e "\e[96m3. asus-keyboard-backlight.sh down\e[0m" && echo
 sleep 2
 sudo /etc/acpi/asus-keyboard-backlight.sh down
 
-echo && echo -e "\e[96m4. omz update\e[0m" && echo
+echo && echo -e "\e[96m4. Oh My Zsh update\e[0m" && echo
 sleep 2
 ZSH="$HOME/.oh-my-zsh"
 source $ZSH/oh-my-zsh.sh

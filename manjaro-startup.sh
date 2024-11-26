@@ -19,6 +19,7 @@ yay -Yc
 # cache clean can be done
 # yay -Sc
 
+# repo: https://github.com/sreejithag/battery-charging-limiter-linux
 echo && echo -e "\e[96m2. charging limit 79%\e[0m" && echo
 sleep 2
 cd ~/Documents/battery-charging-limiter-linux/
